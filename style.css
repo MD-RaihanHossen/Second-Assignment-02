@@ -57,7 +57,7 @@ body{
 /* ---------------first-section-start--------------- */
 
 .first-section{
-    margin-top: 145px;
+    margin-top: 260px;
 }
 .section-bog{
     display: flex;
@@ -122,7 +122,7 @@ body{
 /* ----------------end-section-start----------------- */
 
 .first-section-item{
-    margin-top: 100px;
+    margin-top: 260px;
 
 }
 .first-section-item h2{
@@ -136,8 +136,8 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    margin-left: 120px;
-    margin-right: 197px;
+    margin-left: 105px;
+    margin-right: 105px;
     
 }
 
