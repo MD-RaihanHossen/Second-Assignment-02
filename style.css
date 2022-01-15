@@ -1,0 +1,179 @@
+/*------------ google-font-link----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Inter:wght@100&family=Poppins:wght@600;700&display=swap');
+
+/*------------------- full-body-link ----------------------*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #AAAAAA;;
+}
+
+
+/* ------------ navbar-start -----------*/
+.first-navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 120px;
+}
+.nav-title{
+    margin-top: -3px;
+}
+.nav-title h3{
+    Color: #3A3A3A;
+    font-size: 24px;
+    font-size: 700;
+    
+
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-button-name li{
+    list-style: none;
+    margin-left: 16px;
+}
+.nav-button-name li a{
+    color: #3A3A3A;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.nav-button-name li .font-awesome-logo{
+    font-size: 25px;
+}
+#search-awesome{
+    font-size: 18px;
+}
+
+/*------- end-navbar-this-page --------------*/
+
+
+/* ---------------first-section-start--------------- */
+
+.first-section{
+    margin-top: 145px;
+}
+.section-bog{
+    display: flex;
+    
+}
+.blog-start{
+    margin-left: 120px;
+}
+.camera-informetion{
+    font-weight: 600;
+    font-size: 16px;
+    Width:542px;
+    height: 270px;
+    
+}
+.blog-start h2{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+.blog-start p{
+    font-weight: 600;
+    font-size: 14px;
+    color: #3A3A3A;
+    
+}
+
+.camera-informetion a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 41px;
+
+}
+
+.blog-image{
+    position: relative;
+    margin-right: 50px;
+}
+.blog-camera-image{
+    width: 440px;
+    height: 414px;
+    margin-top: -40px;
+   
+}
+.blog-background-image{
+    width: 475px;
+    height: 475px;
+    margin-top: -400px;
+    margin-left: 20px;
+    
+}
+.first-section-imeges{
+    width: 50%;
+   
+
+}
+/* ------------first-section-end---------------------*/
+
+
+/* ----------------end-section-start----------------- */
+.first-section-item{
+    margin-top: 300px;
+}
+.first-section-item h2{
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 28px;
+    font-family: Poppins;
+}
+.first-blog{
+   
+}
+
+.blog-area{
+    
+    width: 300px;
+    height: 470px;
+    padding: 16px;
+    background-color: #FFFFFF;
+
+    
+}
+.blog-area img{
+    width: 300px;
+    height: 256px;
+}
+.blog-tittle{
+    color: #18191F;
+    font-size: 28px;
+}
+.first-blog  .price{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    margin-bottom: 8px;
+    margin-top: -8px;
+    color: #000000;
+}
+
+.start-section ul i{
+    display: flex;
+    flex-direction: row;
+}
+.star1{
+    color: #FB8200;
+}
+.start-section span{
+    color: #787885;
+}
+
+.blog-area p{
+    font-size: 14px;
+    margin-top: 0px;
+    color: #787885;
+    font-family: 'Inter', sans-serif;
+
+}
