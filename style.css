@@ -200,6 +200,82 @@ body{
     font-family: 'Inter', sans-serif;
 
 }
+/* -----------------------three-section-start----------------------------- */
+@keyframes raihan {
+    from{
+      background-color: red;
+      left: 0;
+    }
+    to{
+      background-color: green;
+      left: 1000px;
+    }
+    }
+
+    @keyframes bottom-animation {
+        from{
+          background-color: red;
+          right: 0;
+        }
+        to{
+          background-color: green;
+          right: 1000px;
+        }
+        }
+
+.animation-area{
+    width: 955px;
+    height: 40px;
+    margin-left: 105px;
+    margin-right: 105px;
+    
+}
+ .animation{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid white;
+    animation: raihan 1s ease-in-out 0.5s infinite alternate ;
+ }
+
+ .bottom-animation{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 1000px;
+    position: relative;
+    border: 2px solid white;
+    animation: bottom-animation 1s ease-in-out 0.5s infinite alternate ;
+ }
+
+.containar{
+    display: flex;
+    margin-left: 105px;
+    margin-right: 105px;
+    box-shadow: 1px 1px 8px rgb(128 128 128 / 32%), -1px -1px 8px rgb(128 128 128 / 32%);
+    padding: 30px;
+    
+}
+.blog{
+    margin-right: 10px;
+}
+.blog h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Poppins;
+    margin-bottom: 15px;
+}
+.blog p{
+    font-size: 14px;
+    margin-top: 0px;
+    color: #787885;
+    font-family: 'Inter', sans-serif;
+}
+.image-containar img{
+    margin-left:10px;
+        
+}
 
 /* --------------start-footter-section------------------------ */
 
@@ -244,7 +320,10 @@ body{
     width: 20px;
     height: 20px;
     cursor: pointer;
-    
-color: white;
-padding: 0px 5px;
+    color: white;
+    padding: 0px 5px;
+}
+ .social-link:hover{
+    color: #E02C6D;
+    transition: 0.5s;
 }
