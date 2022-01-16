@@ -1,0 +1,160 @@
+@media only screen and (max-width: 688px) {
+    .header-start{
+        margin-left: -80px;
+    }
+    .nav-title {
+        width: 400px;
+        margin-left: 30px;
+        margin-bottom: -30px;
+    }
+    .first-navbar{
+    flex-direction: column;
+    margin-left: 100px;
+    
+    }   
+
+    .nav-list{
+        flex-direction: column;
+        height: 300px;
+    }
+    .nav-list li{
+        margin-top: 20px;
+    }
+/* -----------------start-first-section -------------*/
+    .section-bog{
+        width: 390px;
+        height: 700px;
+        flex-direction: column;
+        margin-top: 0p;
+    }
+   
+    .blog-start h2{
+        width: 360px;
+        margin-left: -100px;
+    }
+    .camera-informetion{
+        position: relative;
+        margin-left: -100px;
+        width: 300px;
+        margin-right: -110xp;
+    }
+
+    .camera-informetion p{
+        width: 350px;
+    }
+
+    .blog-image{
+        width: 300px;
+    }
+    .first-section-imeges img{
+        width: 350px;
+        margin-left: 10px;
+        
+    }
+
+    /*--------------------- 2nd section -----------------------*/
+    .all-product-list{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .section-number-tow{
+        margin-left: -85px;
+    }
+   
+
+    /*------------- animation-section-start--------------------- */
+
+    .section-three{
+        margin: -80px;
+        margin-top: 10px;
+    }
+    .containar{
+        flex-direction: column;
+        width: 260px;
+        margin-left: 80px;
+        margin: 0px;
+        border: 2px solid red;
+    }
+    .animation-area{
+        width: 350px;
+        height: 40px;
+        
+    }
+    .image-infomation{
+        margin-left: 10px;
+    }
+    .image-containar img{
+        width: 100%;
+       
+    }
+
+/*------------------ fotter-start--------------- */
+
+.fotter-infomation{
+    flex-direction: row;
+    background-color: black;
+
+}
+.fotter-subcontain{
+    background-color: red;
+}
+}
+
+@media only screen and (min-width:688px) and (max-width:1024px){
+  
+    .section-bog{
+        width: 390px;
+        height: 700px;
+    }
+   
+    .blog-start h2{
+        margin-left: -80px;
+    }
+    .camera-informetion{
+        position: relative;
+        margin-left: -80px;
+        width: 300px;
+        margin-right: -110xp;
+    }
+
+    .blog-image{
+        width: 300px;
+    }
+    .first-section-imeges img{
+        width: 350px;
+        margin-left: 10px;
+        
+    }
+ /*--------------------- 2nd section -----------------------*/
+ .all-product-list{
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 10px;
+  
+    
+}
+
+.section-number-tow{
+    margin-left: -105px;
+}
+
+/* ------------animation-part------- */
+.section-three{
+    margin: -80px;
+    margin-top: 10px;
+}
+.containar{
+
+    margin-left: 80px;
+    margin: 0px;
+    border: 2px solid red;
+}
+.image-infomation{
+    margin-left: 10px;
+}
+.image-containar img{
+ 
+   
+}
+
+}
