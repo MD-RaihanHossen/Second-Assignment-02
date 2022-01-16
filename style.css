@@ -139,10 +139,7 @@ body{
     margin-top: 45px;
     margin-right: 105px;
 }
-.section-number-tow>span>a{
-    text-decoration: none;
-    color: #E02C6D;
-}
+
 .first-section-item h2{
     text-align: center;
     color: #3A3A3A;
@@ -200,25 +197,31 @@ body{
     font-family: 'Inter', sans-serif;
 
 }
+
+.section-number-tow>span>a{
+    text-decoration: none;
+    color: #E02C6D;
+    margin-bottom: 270px;
+}
 /* -----------------------three-section-start----------------------------- */
 @keyframes raihan {
     from{
-      background-color: red;
+      background-color: #e02c6e70;
       left: 0;
     }
     to{
-      background-color: green;
+      background-color: #E02C6D;
       left: 1000px;
     }
     }
 
     @keyframes bottom-animation {
         from{
-          background-color: red;
+          background-color: #E02C6D;
           right: 0;
         }
         to{
-          background-color: green;
+          background-color: #e02c6e71;
           right: 1000px;
         }
         }
@@ -280,15 +283,11 @@ body{
 /* --------------start-footter-section------------------------ */
 
 .fotter-start{
-   
-    background-color: black;
-    
-    
-    
+ background-color: black;  
 }
 .fotter-infomation{
     width: 262px;
-    height: 184px;
+    height: 174px;
     margin: auto;
     margin-top: 270px;
     text-align: center;
@@ -324,6 +323,9 @@ body{
     padding: 0px 5px;
 }
  .social-link:hover{
-    color: #E02C6D;
-    transition: 0.5s;
+    
+    background-color: #E02C6D;
+    padding: 9px 9px;
+    transition: 0.3s ease-in;
+    border-radius: 50%;
 }
